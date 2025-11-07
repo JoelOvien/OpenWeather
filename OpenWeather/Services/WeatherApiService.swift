@@ -10,7 +10,7 @@ import Foundation
 
 public class WeatherAPIService: WeatherServiceProtocol {
 	
-	private let apiKey = "13bf94aeccfa348d783caf9e555ffed8"
+	private let apiKey = "API_KEY"
 	private let baseURL = "https://api.openweathermap.org/data/2.5/weather"
 	private let session: URLSession
 	
