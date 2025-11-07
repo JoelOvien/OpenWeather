@@ -53,11 +53,6 @@
 			path = OpenWeatherTests;
 			sourceTree = "<group>";
 		};
-		B8A35D9E2EBD9A5000B5176E /* OpenWeatherUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = OpenWeatherUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +85,6 @@
 			children = (
 				B8A35D7D2EBD9A4E00B5176E /* OpenWeather */,
 				B8A35D942EBD9A5000B5176E /* OpenWeatherTests */,
-				B8A35D9E2EBD9A5000B5176E /* OpenWeatherUITests */,
 				B8A35D7C2EBD9A4E00B5176E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -165,9 +159,6 @@
 			);
 			dependencies = (
 				B8A35D9D2EBD9A5000B5176E /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				B8A35D9E2EBD9A5000B5176E /* OpenWeatherUITests */,
 			);
 			name = OpenWeatherUITests;
 			packageProductDependencies = (
